@@ -1,16 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
-import './Header.css';
+import style from './Header.module.css';
 
 function Header() {
     return (
-        <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+        <header className={style.App_header}>
+            <img src={logo} className={style.App_logo} alt={style.logo} />
             <p>
                 Hello world! Edit <code>src/App.js</code> and save to reload.
             </p>
             <a
-                className="App-link"
+                className={style.App_link}
                 href="https://reactjs.org"
                 target="_blank"
                 rel="noopener noreferrer"

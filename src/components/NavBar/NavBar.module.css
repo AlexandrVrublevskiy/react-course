@@ -1,0 +1,16 @@
+.nav {
+    background-color: limegreen;
+    height: 1000px;
+}
+
+.nav {
+    grid-area: n;
+  }
+
+  .item a {
+      color: white;
+  }
+
+  .active a {
+      color: black;
+  }
