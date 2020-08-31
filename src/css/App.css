@@ -11,4 +11,12 @@
   grid-gap: 10px;
 }
 
+.app-wraper-content {
+  background-color: lightslategray;
+  height: 1000px;
+  grid-area: c;
+}
+
+
+
 

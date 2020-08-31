@@ -1,6 +1,7 @@
 .nav {
     background-color: limegreen;
     height: 1000px;
+    padding: 20px;
 }
 
 .nav {
@@ -9,8 +10,9 @@
 
   .item a {
       color: white;
+      text-decoration: none;
   }
 
-  .active a {
+  .item a.active {
       color: black;
   }

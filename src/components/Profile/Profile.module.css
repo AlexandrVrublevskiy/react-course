@@ -1,20 +1,13 @@
-.content {
+/*.content {
     background-color: lightslategray;
     height: 1000px;
 }
 
 .content {
     grid-area: c;
-  }
+}
+*/
 
-  .content img {
-      height: 500px;
-  }
-
-  .item {
-      color: yellowgreen;
-  }
-
-  .item img {
-      height: 70px;
-  }
+.content img {
+    height: 500px;
+}
