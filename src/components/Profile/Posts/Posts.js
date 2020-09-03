@@ -2,6 +2,13 @@ import React from 'react';
 import Post from './Post/Post';
 import style from './Posts.module.css'
 
+let massages = [
+    {massage: 'Hello!', id: 1},
+    {massage: 'Hello world!', id: 2},
+    {massage: 'Hello user!', id: 3}
+]
+
+let massagesElements = massages.map((item, i) => <Post message={item.massage} key={i} />)
 
 let Posts = () => {
     return (
@@ -17,11 +24,7 @@ let Posts = () => {
                 </div>
             </div>
             <div className={style.posts}>
-                <Post message='Hello!' />
-                <Post message='Hello world!'/>
-                <Post />
-                <Post />
-                <Post />
+                {massagesElements}
             </div>
         </div>
     )
